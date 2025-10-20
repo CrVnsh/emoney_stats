@@ -1,4 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# eMoney Stats
+
+A lightweight Next.js dashboard for analyzing and visualizing E-Money / crypto metrics (e.g. Total Supply, Circulating Supply, Locked Tokens). The focus is on quick setup, clean UI, and easy extensibility.
+
+Built with Next.js (App Router), TypeScript, and Tailwind CSS. Ideal for personal analytics or as a foundation for custom crypto/finance dashboards.
+
+## Features
+
+📊 Dashboard with key metrics
+
+🔁 Auto-refresh of data at configurable intervals
+
+🔌 Pluggable data layer – simple to swap or extend data sources
+
+🚀 Vercel-ready: zero-config deployment
+
+## Tech Stack
+
+Next.js (App Router) + TypeScript
+
+Tailwind CSS + PostCSS
+
+ESLint
+
+(Optional) API Routes / Edge Functions for data fetching
+
+## Screenshots
+
+![Dashboard Overview](/public/screenshot-overview.png)
 
 ## Getting Started
 

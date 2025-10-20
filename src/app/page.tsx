@@ -12,7 +12,7 @@ export default function Home() {
   const totalStaked = data?.totalStaked
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div className="min-h-screen bg-gray-900 p-6">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-3xl font-bold text-center mb-6">📊 EMYC Dashboard</h1>
 
@@ -46,7 +46,7 @@ export default function Home() {
 function StatCard({ title, value }: { title: string; value: string }) {
   return (
     <div className="bg-white p-4 rounded-xl shadow-md text-center">
-      <h2 className="text-xl font-semibold mb-2">{title}</h2>
+      <h2 className="text-xl font-semibold mb-2 text-gray-900">{title}</h2>
       <p className="text-2xl font-bold text-blue-600">{value}</p>
     </div>
   )
